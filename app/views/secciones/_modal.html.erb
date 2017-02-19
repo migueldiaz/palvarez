@@ -30,15 +30,20 @@
 }
 
 /* The Close Button */
-.close {
+.xpmiel, .xpazucar, .xperruna, .xempanadilla,.xgalleta{
     color: white;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover,.close:focus,
+.xpmiel:hover,.xpmiel:focus,
+.xpazucar:hover,.xpazucar:focus,
+.xperruna:hover,.xperruna:focus,
+.xempanadilla:hover,.xempanadilla:focus,
+.xgalleta:hover,.xgalleta:focus
+ {
     color: #000;
     text-decoration: none;
     cursor: pointer;
@@ -50,11 +55,13 @@
     height: 50px;
     background-color: #058DBF;
     color: white;
+    text-align: center
 }
 
 .modal-body {padding: 2px 16px;
-    font-size: 150%;
+    font-size: 130%;
     background-color: #fff;
+    text-align: center
 }
 
 .modal-footer {
@@ -92,14 +99,14 @@
 <div id="mpmiel" class="modal">
   <div class="modal-content">
     <div class="modal-header">
-      <span class="close">&times;</span>
+      <span class="xpmiel">&times;</span>
       <p class=""><span class="glyphicon glyphicon-mini glyphicon-info-sign" aria-hidden="true"></span> Alérgenos</p>
     </div>
     <div class="modal-body">
     <br/>
       <p class="alergeno">Nuestros <strong>pestiños de miel</strong> son <strong>aptos</strong> para intolerantes a la lactosa.</p>
       <p class="alergeno"> No contienen leche ni derivados de ésta.</p>
-      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cascara y granos de sésamo.</p>
+      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cáscara y granos de sésamo.</p>
         <br/><br/>
     </div>
     <div class="modal-footer">
@@ -111,14 +118,14 @@
 <div id="mpazucar" class="modal">
   <div class="modal-content">
     <div class="modal-header">
-      <span class="close">&times;</span>
+      <span class="xpazucar">&times;</span>
       <p class=""><span class="glyphicon glyphicon-mini glyphicon-info-sign" aria-hidden="true"></span> Alérgenos</p>
     </div>
     <div class="modal-body">
     <br/>
       <p class="alergeno">Nuestros <strong>pestiños de azúcar</strong> son <strong>aptos</strong> para intolerantes a la lactosa. </p>
       <p class="alergeno"> No contienen leche ni derivados de ésta.</p>
-      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cascara y granos de sésamo.</p>
+      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cáscara y granos de sésamo.</p>
         <br/><br/>
     </div>
     <div class="modal-footer">
@@ -130,14 +137,14 @@
 <div id="mperruna" class="modal">
   <div class="modal-content">
     <div class="modal-header">
-      <span class="close">&times;</span>
+      <span class="xperruna">&times;</span>
       <p class=""><span class="glyphicon glyphicon-mini glyphicon-info-sign" aria-hidden="true"></span> Alérgenos</p>
     </div>
     <div class="modal-body">
     <br/>
-      <p class="alergeno">Nuestras <strong>perrunas</strong> no son <strong>aptas</strong> para intolerantes a la lactosa. Contienen leche o derivados de ésta.</p>
-      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cascara y granos de sésamo.</p>
-        <br/><br/>
+      <p class="alergeno">Nuestras <strong>empanadillas rellenas</strong> son <strong>aptas</strong> para intolerantes a la lactosa. </p>
+      <p class="alergeno"> No contienen leche ni derivados de ésta.</p>
+      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cáscara y granos de sésamo.</p><br/<br/>
     </div>
     <div class="modal-footer">
       
@@ -148,14 +155,14 @@
 <div id="mempanadilla" class="modal">
   <div class="modal-content">
     <div class="modal-header">
-      <span class="close">&times;</span>
+      <span class="xempanadilla">&times;</span>
       <p class=""><span class="glyphicon glyphicon-mini glyphicon-info-sign" aria-hidden="true"></span> Alérgenos</p>
     </div>
     <div class="modal-body">
     <br/>
       <p class="alergeno">Nuestras <strong>empanadillas rellenas</strong> son <strong>aptas</strong> para intolerantes a la lactosa. </p>
       <p class="alergeno"> No contienen leche ni derivados de ésta.</p>
-      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cascara y granos de sésamo.</p>
+      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cáscara y granos de sésamo.</p>
         <br/><br/>
     </div>
     <div class="modal-footer">
@@ -163,17 +170,17 @@
     </div>
   </div>
 </div>
-<!-- Modal pestiño de azucar-->
+<!-- Modal galletas-->
 <div id="mgalleta" class="modal">
   <div class="modal-content">
     <div class="modal-header">
-      <span class="close">&times;</span>
+      <span class="xgalleta">&times;</span>
       <p class=""><span class="glyphicon glyphicon-mini glyphicon-info-sign" aria-hidden="true"></span> Alérgenos</p>
     </div>
     <div class="modal-body">
     <br/>
-      <p class="alergeno">Nuestras <strong>galletas</strong> son <strong>aptas</strong> para intolerantes a la lactosa. No conienen leche ni derivados de ésta.</p>
-      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cascara y granos de sésamo.</p>
+      <p class="alergeno">Nuestras <strong>galletas rellenas</strong> no son aptas para intolerantes a la lactosa.</p>
+      <p class="alergeno">Pueden contener trazas de leche, incluyendo sus derivados, sulfitos, frutos de cáscara y granos de sésamo.</p>
         <br/><br/>
     </div>
     <div class="modal-footer">
@@ -203,7 +210,11 @@ var bgalleta = document.getElementById("bgalleta");
 
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var xpmiel = document.getElementsByClassName("xpmiel")[0];
+var xpazucar = document.getElementsByClassName("xpazucar")[0];
+var xperruna = document.getElementsByClassName("xperruna")[0];
+var xempanadilla = document.getElementsByClassName("xempanadilla")[0];
+var xgalleta = document.getElementsByClassName("xgalleta")[0];
 
 // Abrir la ventana al clicar
 bpmiel.onclick = function() {
@@ -222,20 +233,10 @@ bgalleta.onclick = function() {
     mgalleta.style.display = "block";
 }
 
-
-// Cerrar con la X
-span.onclick = function() {
-    mpmiel.style.display = "none";
-    mpazucar.style.display = "none";
-    mperruna.style.display = "none";
-    mempanadilla.style.display = "none";
-    mgalleta.style.display = "none";
-}
 // Cerrar clicando donde sea
 window.onclick = function(event) {
     if (event.target == mpmiel) {
         mpmiel.style.display = "none";
-
     }
     if (event.target == mpazucar) {
         mpazucar.style.display = "none";
@@ -250,4 +251,22 @@ window.onclick = function(event) {
         mgalleta.style.display = "none";
     }
 }
+// Cerrar con la X
+
+xpmiel.onclick =function(){
+    mpmiel.style.display = "none";
+}
+xpazucar.onclick =function(){
+    mpazucar.style.display = "none";
+}
+xperruna.onclick =function(){
+    mperruna.style.display = "none";
+}
+xempanadilla.onclick =function(){
+    mempanadilla.style.display = "none";
+}
+xgalleta.onclick =function(){
+    mgalleta.style.display = "none";
+}
+
 </script>

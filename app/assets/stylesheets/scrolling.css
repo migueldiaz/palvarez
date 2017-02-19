@@ -57,13 +57,21 @@ html {
 
 
 /* Estilo de los textos de la página*/
+
+.contacto{
+    font-size: 90%;
+    text-align: left;
+    margin-left: 100px;
+}
 .glyphicon-grande {
     font-size: 250%;
 }
 .glyphicon-mini{
     font-size: 120%;
 }
-
+.glyphicon-small{
+    font-size: 80%;
+}
 .titulo{
      font-family: "Myriad pro";
      font-size: 220%;
