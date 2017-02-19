@@ -1,0 +1,158 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/*Estilos a la barra de navegacion*/
+.navbar-custom {
+    background-color:#006699;
+    color:#ffffff;
+    border-radius:0;
+    border-color: #006699;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+    font-family: "Myriad pro";
+    font-size: 120%;
+}
+.navbar-custom .navbar-nav > li > a:hover {
+    color:#006699;
+    font-family: "Myriad pro";
+    font-size: 140%;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #006699;
+    background-color:#ffffff;
+    font-family: "Myriad pro";
+    font-size: 140%;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+
+/* Estilo de los textos de la página*/
+.glyphicon {
+    font-size: 250%;
+}
+.glyphicon-mini{
+    font-size: 120%;
+}
+
+.titulo{
+     font-family: "Myriad pro";
+     font-size: 220%;
+     font-weight: bold;
+     color: #006699;
+}
+p{
+    font-family: "Myriad pro";
+    font-size: 150%;
+}
+.alergeno{
+     font-family: "Myriad pro";
+     font-size: 120%;
+}
+.imagen{
+    font-family: "Myriad pro";
+     font-size: 180%;
+     font-weight: light;
+     color: #ccebff;
+}
+.descripcion{
+    font-size: 180%;
+}
+.naranja{
+    color: #0095cc;
+}
+
+/* Estilos para la barra de navegación
+.navbar-default .navbar-collapse, .navbar-default .navbar-form,.nav{
+
+    background-color: #006699;
+}
+.navbar-default{
+     background-color: #006699;
+}*/
+
+
+
+
+
+/* Estilo de las secciones para ir alternando */
+
+.seccion-inicio{
+    min-height: 960px;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff; 
+    display: block;
+}
+
+.seccion-gris{
+    min-height: 960px;
+    padding-top: 100px;
+    text-align: center;
+    background: #eee; 
+    display: block;
+}
+.seccion-blanca{
+    min-height: 960px;
+    padding-top: 100px;
+    text-align: center;
+    background: #fff; 
+    display: block;
+}
+
+
+/* Contenedor de miniaturas */
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.thumbnail:hover .caption {
+    top:0%;
+}
