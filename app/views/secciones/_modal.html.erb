@@ -1,0 +1,253 @@
+<style>
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 20px;
+    padding-top: 10px;
+    height: 50px;
+    background-color: #058DBF;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;
+    font-size: 150%;
+    background-color: #fff;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #069;
+    color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+</style>
+
+
+<!-- Ventanas modales-->
+
+<!-- Modal pestiño de miel-->
+<div id="mpmiel" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <p class=""><span class="glyphicon glyphicon-mini glyphicon-info-sign" aria-hidden="true"></span> Alérgenos</p>
+    </div>
+    <div class="modal-body">
+    <br/>
+      <p class="alergeno">Nuestros <strong>pestiños de miel</strong> son <strong>aptos</strong> para intolerantes a la lactosa.</p>
+      <p class="alergeno"> No contienen leche ni derivados de ésta.</p>
+      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cascara y granos de sésamo.</p>
+        <br/><br/>
+    </div>
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+</div>
+<!-- Modal pestiño de azucar-->
+<div id="mpazucar" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <p class=""><span class="glyphicon glyphicon-mini glyphicon-info-sign" aria-hidden="true"></span> Alérgenos</p>
+    </div>
+    <div class="modal-body">
+    <br/>
+      <p class="alergeno">Nuestros <strong>pestiños de azúcar</strong> son <strong>aptos</strong> para intolerantes a la lactosa. </p>
+      <p class="alergeno"> No contienen leche ni derivados de ésta.</p>
+      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cascara y granos de sésamo.</p>
+        <br/><br/>
+    </div>
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+</div>
+<!-- Modal perruna-->
+<div id="mperruna" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <p class=""><span class="glyphicon glyphicon-mini glyphicon-info-sign" aria-hidden="true"></span> Alérgenos</p>
+    </div>
+    <div class="modal-body">
+    <br/>
+      <p class="alergeno">Nuestras <strong>perrunas</strong> no son <strong>aptas</strong> para intolerantes a la lactosa. Contienen leche o derivados de ésta.</p>
+      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cascara y granos de sésamo.</p>
+        <br/><br/>
+    </div>
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+</div>
+<!-- Modal empanadilla-->
+<div id="mempanadilla" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <p class=""><span class="glyphicon glyphicon-mini glyphicon-info-sign" aria-hidden="true"></span> Alérgenos</p>
+    </div>
+    <div class="modal-body">
+    <br/>
+      <p class="alergeno">Nuestras <strong>empanadillas rellenas</strong> son <strong>aptas</strong> para intolerantes a la lactosa. </p>
+      <p class="alergeno"> No contienen leche ni derivados de ésta.</p>
+      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cascara y granos de sésamo.</p>
+        <br/><br/>
+    </div>
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+</div>
+<!-- Modal pestiño de azucar-->
+<div id="mgalleta" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <p class=""><span class="glyphicon glyphicon-mini glyphicon-info-sign" aria-hidden="true"></span> Alérgenos</p>
+    </div>
+    <div class="modal-body">
+    <br/>
+      <p class="alergeno">Nuestras <strong>galletas</strong> son <strong>aptas</strong> para intolerantes a la lactosa. No conienen leche ni derivados de ésta.</p>
+      <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cascara y granos de sésamo.</p>
+        <br/><br/>
+    </div>
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--Javascript-->
+<script>
+// Coger el modal
+var mpmiel = document.getElementById('mpmiel');
+var mpazucar = document.getElementById('mpazucar');
+var mperruna = document.getElementById('mperruna');
+var mempanadilla = document.getElementById('mempanadilla');
+var mgalleta = document.getElementById('mgalleta');
+
+// Coger el boton que abre la modal
+var bpmiel = document.getElementById("bpmiel");
+var bpazucar = document.getElementById("bpazucar");
+var bperruna = document.getElementById("bperruna");
+var bemanadilla = document.getElementById("bemanadilla");
+var bgalleta = document.getElementById("bgalleta");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// Abrir la ventana al clicar
+bpmiel.onclick = function() {
+    mpmiel.style.display = "block";
+}
+bpazucar.onclick = function() {
+    mpazucar.style.display = "block";
+}
+bperruna.onclick = function() {
+    mperruna.style.display = "block";
+}
+bempanadilla.onclick = function() {
+    mempanadilla.style.display = "block";
+}
+bgalleta.onclick = function() {
+    mgalleta.style.display = "block";
+}
+
+
+// Cerrar con la X
+span.onclick = function() {
+    mpmiel.style.display = "none";
+    mpazucar.style.display = "none";
+    mperruna.style.display = "none";
+    mempanadilla.style.display = "none";
+    mgalleta.style.display = "none";
+}
+// Cerrar clicando donde sea
+window.onclick = function(event) {
+    if (event.target == mpmiel) {
+        mpmiel.style.display = "none";
+
+    }
+    if (event.target == mpazucar) {
+        mpazucar.style.display = "none";
+    }
+    if (event.target == mperruna) {
+        mperruna.style.display = "none";
+    }
+    if (event.target == mempanadilla) {
+        mempanadilla.style.display = "none";
+    }
+    if (event.target == mgalleta) {
+        mgalleta.style.display = "none";
+    }
+}
+</script>

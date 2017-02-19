@@ -57,7 +57,7 @@ html {
 
 
 /* Estilo de los textos de la página*/
-.glyphicon {
+.glyphicon-grande {
     font-size: 250%;
 }
 .glyphicon-mini{
@@ -69,6 +69,14 @@ html {
      font-size: 220%;
      font-weight: bold;
      color: #006699;
+}
+.ialergeno{
+    color: #069;
+    font-size: 110%;
+}
+a.ialergeno:hover{
+    text-decoration: none;
+    font-size: 120%;
 }
 p{
     font-family: "Myriad pro";
