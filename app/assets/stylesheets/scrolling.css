@@ -57,7 +57,15 @@ html {
 
 
 /* Estilo de los textos de la página*/
-
+.econtacto{
+    font-weight: bold;
+    color: ##436681;
+    font-size: 100%;
+}
+.econtacto:hover{
+    text-decoration: none;
+    font-size: 100%;
+}
 .contacto{
     font-size: 90%;
     text-align: left;
@@ -80,11 +88,14 @@ html {
 }
 .ialergeno{
     color: #069;
-    font-size: 110%;
+    font-size: 120%;
+    font-weight: bold;
 }
 a.ialergeno:hover{
+    color: #260f45;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 125%;
+    font-weight: bold;
 }
 p{
     font-family: "Myriad pro";
