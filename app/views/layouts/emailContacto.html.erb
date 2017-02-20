@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content=`text/html`; charset=`UTF-8` http-equiv=`Content-Type` />
+</head>
+<body>
+<h1>Email desde la página web: </h1>
+<p>
+	<ul>
+		<li>Nombre: <%= @email.nombre%></li>
+		<li>Telefono: <%= @email.telefono%></li>
+		<li>Email: <%= @email.email%></li>
+
+	</ul>
+
+</p>
+<h4>Mensaje:</h4>
+<p>
+<%= @email.mensaje%>
+</p>
+</body>
+</html>

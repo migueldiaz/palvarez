@@ -18,7 +18,18 @@
 							         <p>O si lo prefieres con el siguiente formulario:</p>
 					       		</div>
 				           <br/>
+				           		<% if flash[:notice] %>
+				           			<div class="alert alert-success alert-dismissable">
+									  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><%= flash[:notice] %>
+									</div>		    
+								  <% end %>
+								  <% if flash[:alert] %>
+				           			<div class="alert alert-info alert-dismissable">
+									  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><%= flash[:alert] %>
+									</div>		    
+								  <% end %>
 						        <div><!--Contenedor formulario-->
+						        
 						        	<%= render "/secciones/formulariocontacto"%>
 
 						        </div>
