@@ -6,7 +6,7 @@ class ApplicationMailer < ActionMailer::Base
 	:domain => "gandi.net",
 	:authentication => "plain",
 	:user_name => "noresponder@pasteleriaalvarez.com",
-	:password => "",
+	:password => "palvarez1601",
 	:enable_starttls_auto => true
 }
 
