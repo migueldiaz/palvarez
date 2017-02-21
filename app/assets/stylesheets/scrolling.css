@@ -57,6 +57,14 @@ html {
 
 
 /* Estilo de los textos de la página*/
+.creditos{
+     background: #fff; 
+}
+.texto_creditos{
+    width: auto;
+    font-family: "Myriad pro";
+
+}
 .econtacto{
     font-weight: bold;
     color: ##436681;
@@ -74,6 +82,11 @@ html {
 .glyphicon-grande {
     font-size: 250%;
 }
+
+.glyphicon-mediano{
+    font-size: 160%;
+}
+
 .glyphicon-mini{
     font-size: 120%;
 }
