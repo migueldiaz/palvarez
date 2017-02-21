@@ -30,7 +30,8 @@
 }
 
 /* The Close Button */
-.xpmiel, .xpazucar, .xperruna, .xempanadilla,.xgalleta{
+.xpmiel, .xpazucar, .xperruna, .xempanadilla,.xgalleta,
+.xnpmiel, .xnpazucar, .xnperruna, .xnempanadilla,.xngalleta{
     color: white;
     float: right;
     font-size: 28px;
@@ -42,7 +43,12 @@
 .xpazucar:hover,.xpazucar:focus,
 .xperruna:hover,.xperruna:focus,
 .xempanadilla:hover,.xempanadilla:focus,
-.xgalleta:hover,.xgalleta:focus
+.xgalleta:hover,.xgalleta:focus,
+.xnpmiel:hover,.xnpmiel:focus,
+.xnpazucar:hover,.xnpazucar:focus,
+.xnperruna:hover,.xnperruna:focus,
+.xnempanadilla:hover,.xnempanadilla:focus,
+.xngalleta:hover,.xngalleta:focus
  {
     color: #000;
     text-decoration: none;
@@ -142,7 +148,7 @@
     </div>
     <div class="modal-body">
     <br/>
-      <p class="alergeno">Nuestras <strong>empanadillas rellenas</strong> son <strong>aptas</strong> para intolerantes a la lactosa. </p>
+      <p class="alergeno">Nuestras <strong>perrunas</strong> son <strong>aptas</strong> para intolerantes a la lactosa. </p>
       <p class="alergeno"> No contienen leche ni derivados de ésta.</p>
       <p class="alergeno">Pueden contener trazas de huevo, sulfitos, frutos de cáscara y granos de sésamo.</p><br/<br/>
     </div>
@@ -179,7 +185,7 @@
     </div>
     <div class="modal-body">
     <br/>
-      <p class="alergeno">Nuestras <strong>galletas rellenas</strong> no son aptas para intolerantes a la lactosa.</p>
+     
       <p class="alergeno">Pueden contener trazas de leche, incluyendo sus derivados, sulfitos, frutos de cáscara y granos de sésamo.</p>
         <br/><br/>
     </div>
@@ -189,7 +195,7 @@
   </div>
 </div>
 
-
+ <%= render 'secciones/nutricion'%>
 
 
 <!--Javascript-->
@@ -201,7 +207,19 @@ var mperruna = document.getElementById('mperruna');
 var mempanadilla = document.getElementById('mempanadilla');
 var mgalleta = document.getElementById('mgalleta');
 
+var mnpmiel = document.getElementById('mnpmiel');
+var mnpazucar = document.getElementById('mnpazucar');
+var mnperruna = document.getElementById('mnperruna');
+var mnempanadilla = document.getElementById('mnempanadilla');
+var mngalleta = document.getElementById('mngalleta');
+
 // Coger el boton que abre la modal
+var bnpmiel = document.getElementById("bnpmiel");
+var bnpazucar = document.getElementById("bnpazucar");
+var bnperruna = document.getElementById("bnperruna");
+var bnemanadilla = document.getElementById("bnemanadilla");
+var bngalleta = document.getElementById("bngalleta");
+
 var bpmiel = document.getElementById("bpmiel");
 var bpazucar = document.getElementById("bpazucar");
 var bperruna = document.getElementById("bperruna");
@@ -215,6 +233,12 @@ var xpazucar = document.getElementsByClassName("xpazucar")[0];
 var xperruna = document.getElementsByClassName("xperruna")[0];
 var xempanadilla = document.getElementsByClassName("xempanadilla")[0];
 var xgalleta = document.getElementsByClassName("xgalleta")[0];
+
+var xnpmiel = document.getElementsByClassName("xnpmiel")[0];
+var xnpazucar = document.getElementsByClassName("xnpazucar")[0];
+var xnperruna = document.getElementsByClassName("xnperruna")[0];
+var xnempanadilla = document.getElementsByClassName("xnempanadilla")[0];
+var xngalleta = document.getElementsByClassName("xngalleta")[0];
 
 // Abrir la ventana al clicar
 bpmiel.onclick = function() {
@@ -231,6 +255,22 @@ bempanadilla.onclick = function() {
 }
 bgalleta.onclick = function() {
     mgalleta.style.display = "block";
+}
+
+bnpmiel.onclick = function() {
+    mnpmiel.style.display = "block";
+}
+bnpazucar.onclick = function() {
+    mnpazucar.style.display = "block";
+}
+bnperruna.onclick = function() {
+    mnperruna.style.display = "block";
+}
+bnempanadilla.onclick = function() {
+    mnempanadilla.style.display = "block";
+}
+bngalleta.onclick = function() {
+    mngalleta.style.display = "block";
 }
 
 // Cerrar clicando donde sea
@@ -250,6 +290,22 @@ window.onclick = function(event) {
     if (event.target == mgalleta) {
         mgalleta.style.display = "none";
     }
+
+    if (event.target == mnpmiel) {
+        mnpmiel.style.display = "none";
+    }
+    if (event.target == mnpazucar) {
+        mnpazucar.style.display = "none";
+    }
+    if (event.target == mnperruna) {
+        mnperruna.style.display = "none";
+    }
+    if (event.target == mnempanadilla) {
+        mnempanadilla.style.display = "none";
+    }
+    if (event.target == mngalleta) {
+        mngalleta.style.display = "none";
+    }
 }
 // Cerrar con la X
 
@@ -267,6 +323,22 @@ xempanadilla.onclick =function(){
 }
 xgalleta.onclick =function(){
     mgalleta.style.display = "none";
+}
+
+xnpmiel.onclick =function(){
+    mnpmiel.style.display = "none";
+}
+xnpazucar.onclick =function(){
+    mnpazucar.style.display = "none";
+}
+xnperruna.onclick =function(){
+    mnperruna.style.display = "none";
+}
+xnempanadilla.onclick =function(){
+    mnempanadilla.style.display = "none";
+}
+xngalleta.onclick =function(){
+    mngalleta.style.display = "none";
 }
 
 </script>
