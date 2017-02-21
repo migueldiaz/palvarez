@@ -133,8 +133,18 @@ p{
 .navbar-default{
      background-color: #006699;
 }*/
-
-
+.creditos{
+    margin-top: 60px;
+    margin-bottom: 20px;
+      font-family: "Myriad pro";
+     font-size: 90%;
+     
+}
+p.creditos{
+    font-family: "Myriad pro";
+     font-size: 180%;
+     font-weight: light;
+}
 
 
 
