@@ -4,13 +4,12 @@
 <meta content=`text/html`; charset=`UTF-8` http-equiv=`Content-Type` />
 </head>
 <body>
-<h1>Email desde la página web: </h1>
+<h1>Email desde la pa&acute;gina web: </h1>
 <p>
 	<ul>
 		<li>Nombre: <%= @email.nombre%></li>
-		<li>Telefono: <%= @email.telefono%></li>
+		<%if @email.telefono!=""%> <li>Telefono: <%= @email.telefono%></li><%end%>
 		<li>Email: <%= @email.email%></li>
-
 	</ul>
 
 </p>
