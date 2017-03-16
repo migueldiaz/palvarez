@@ -10,12 +10,7 @@ class PalvarezController < ApplicationController
 
   	
   	@email=Email.new(email_params)
-
-    if !@email.email="" &&!valid_email?(@email.email)
-         flash[:alert] = "El formato del email no es correcto"
-          redirect_to root_path + "#contactar"     
-    else
-      
+    
         if(@email.email=='' || @email.nombre=="" || @email.mensaje=='')
                flash[:alert] = "El nombre, email y el mensaje son necesarios."
                redirect_to root_path + "#contactar"
@@ -25,7 +20,7 @@ class PalvarezController < ApplicationController
              flash[:notice] = "Se ha enviado el mensaje, en breve tendrás noticias nuestras."
              redirect_to root_path + "#contactar"
             end 
-    end
+   
      
   end
 
