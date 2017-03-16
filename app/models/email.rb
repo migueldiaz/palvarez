@@ -3,7 +3,6 @@ class Email
 
    validates :nombre, :presence => true
    validates :email, :presence => true
-   
    validates :mensaje, :presence => true
 
    attr_accessor :nombre

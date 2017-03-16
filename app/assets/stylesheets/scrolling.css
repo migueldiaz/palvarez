@@ -25,6 +25,7 @@ html {
 
     .top-nav-collapse {
         padding: 0;
+
     }
 }
 
@@ -34,17 +35,19 @@ html {
     color:#ffffff;
     border-radius:0;
     border-color: #006699;
+
 }
 
 .navbar-custom .navbar-nav > li > a {
     color:#fff;
     font-family: "Myriad pro";
-    font-size: 120%;
+    font-size: 110%;
+
 }
 .navbar-custom .navbar-nav > li > a:hover {
     color:#006699;
     font-family: "Myriad pro";
-    font-size: 140%;
+    font-size: 120%;
 }
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
     color: #006699;
@@ -95,13 +98,13 @@ html {
 }
 .ialergeno{
     color: #069;
-    font-size: 120%;
+    font-size: 110%;
     font-weight: bold;
 }
 a.ialergeno:hover{
     color: #260f45;
     text-decoration: none;
-    font-size: 125%;
+    font-size: 115%;
     font-weight: bold;
 }
 p{
@@ -110,7 +113,7 @@ p{
 }
 .alergeno{
      font-family: "Myriad pro";
-     font-size: 120%;
+     font-size: 110%;
 }
 .imagen{
     font-family: "Myriad pro";
@@ -156,6 +159,7 @@ p.creditos{
     text-align: center;
     background: #fff; 
     display: block;
+     width: 100%;
 }
 
 .seccion-gris{
@@ -164,6 +168,7 @@ p.creditos{
     text-align: center;
     background: #eee; 
     display: block;
+     width: 100%;
 }
 .seccion-blanca{
     min-height: 960px;
@@ -171,6 +176,7 @@ p.creditos{
     text-align: center;
     background: #fff; 
     display: block;
+     width: 100%;
 }
 
 
